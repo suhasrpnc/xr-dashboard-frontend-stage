@@ -1,0 +1,50 @@
+<Menus>
+  <!-- ADMIN MENU -->
+  <Role name="Admin">
+    <Menu label="Dashboard Analytics" icon="pi pi-fw pi-chart-bar">
+      <Item label="Analytics Overview" icon="pi pi-fw pi-chart-line" route="/dashboards/xr-dashboard" />
+      <!-- <Item label="Module Insights" icon="pi pi-fw pi-th-large" route="/dashboards/module-insights" /> -->
+    </Menu>
+    <Menu label="Admin Master" icon="pi pi-fw pi-database">
+      <Item label="Departments" icon="pi pi-fw pi-sitemap" route="/departments/departmentstable" />
+      <Item label="Designations" icon="pi pi-fw pi-briefcase" route="/designations/designationstable" />
+      <Item label="Modules" icon="pi pi-fw pi-cog" route="/modules/modulecomponent" />
+    </Menu>
+    <Menu label="User Management" icon="pi pi-fw pi-briefcase">
+      <Item label="User" icon="pi pi-fw pi-users" route="/user/usertable" />
+      <Item label="Trainer" icon="pi pi-fw pi-user-edit" route="/trainer/trainertable" />
+      <Item label="Admin" icon="pi pi-fw pi-shield" route="/admin/admintable" />
+    </Menu>
+    <Menu label="Training &amp; Events" icon="pi pi-fw pi-calendar-plus">
+      <Item label="Content Hub" icon="pi pi-fw pi-book" route="/trainingmodule" />
+      <Item label="Events" icon="pi pi-fw pi-calendar" route="/events/event-component" />
+      <Item label="Certifications" icon="pi pi-fw pi-id-card" route="/certificates/certificatecomponent" />
+    </Menu>
+  </Role>
+
+  <!-- TRAINER MENU -->
+  <Role name="Trainer">
+    <Menu label="Dashboard Analytics" icon="pi pi-fw pi-chart-bar">
+      <Item label="Analytics Overview" icon="pi pi-fw pi-chart-line" route="/dashboards/xr-dashboard" />
+      <!-- <Item label="Module Insights" icon="pi pi-fw pi-th-large" route="/dashboards/module-insights" /> -->
+    </Menu>
+    <Menu label="Training &amp; Events" icon="pi pi-fw pi-calendar-plus">
+      <Item label="Content Hub" icon="pi pi-fw pi-book" route="/trainingmodule" />
+      <Item label="Events" icon="pi pi-fw pi-calendar" route="/events/event-component" />
+      <Item label="Certifications" icon="pi pi-fw pi-id-card" route="/certificates/certificatecomponent" />
+    </Menu>
+
+  </Role>
+
+  <!-- USER MENU -->
+  <Role name="Employee">
+    <Menu label="Dashboard Analytics" icon="pi pi-fw pi-chart-bar">
+      <Item label="Analytics Overview" icon="pi pi-fw pi-chart-line" route="/dashboards/xr-dashboard" />
+    </Menu>
+    <Menu label="Training &amp; Events" icon="pi pi-fw pi-calendar-plus">
+      <Item label="Content Hub" icon="pi pi-fw pi-book" route="/trainingmodule" />
+      <Item label="Events" icon="pi pi-fw pi-calendar" route="/events/event-component" />
+      <Item label="Certifications" icon="pi pi-fw pi-id-card" route="/certificates/certificatecomponent" />
+    </Menu>
+  </Role>
+</Menus>
