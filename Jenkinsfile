@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GIT_CREDENTIALS     = 'Jenkinstoken'
-        REPO_URL            = 'https://github.com/Suhasreddy257/frontend_xrdashboard.git'
+        REPO_URL            = 'https://github.com/suhasrpnc/xr-dashboard-frontend-stage.git'
 
         DEPLOY_BASE         = 'D:\\buildforpipeline'
         APP_FOLDER          = 'xr-dashboard\\browser'
@@ -13,7 +13,7 @@ pipeline {
         IIS_SITE_NAME       = 'XRdashboardfrontend'
         IIS_PORT            = '9005'
 
-        EXTRA_FOLDER_SOURCE = 'D:\\extra'
+        EXTRA_FOLDER_SOURCE = 'C:\Pipeline\Extra'
 
         // Your email – used by the mail() step
         PERSONAL_EMAIL      = 'reddydr257@gmail.com'
